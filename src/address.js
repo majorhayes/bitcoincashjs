@@ -11,7 +11,7 @@ var JSUtil = require('./util/js');
 var PublicKey = require('./publickey');
 
 var BITPAY_P2PKH_VERSION_BYTE = 28;
-var BITPAY_P2SH_VERSION_BYTE = 40;
+var BITPAY_P2SH_VERSION_BYTE = 0x3E;
 
 /**
  * Instantiate an address from an address String or Buffer, a public key or script hash Buffer,
